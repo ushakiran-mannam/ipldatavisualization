@@ -72,7 +72,7 @@ def prepare_heatmap():
         x=unique_teams_list,
         y=unique_teams_list,
         z=matrix,
-        colorscale='Viridis',
+        colorscale='Magma',
         colorbar=dict(title='Win Count')
     )
 

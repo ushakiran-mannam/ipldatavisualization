@@ -178,7 +178,7 @@ def get_chart_four(selected_player):
         
         
     
-    trace = go.Bar(x=wickets_df['Venue'], y=wickets_df['player_out'],marker=dict(color=wickets_df['player_out'], colorscale='Viridis'))
+    trace = go.Bar(x=wickets_df['Venue'], y=wickets_df['player_out'],marker=dict(color=wickets_df['player_out'], colorscale='Inferno'))
     
     # Create the layout for the bar chart
     layout = go.Layout(title= f'{selected_player} Wickets taken at that Venue', xaxis=dict(title='Venue'), yaxis=dict(title=''))
