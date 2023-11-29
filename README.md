@@ -1,5 +1,7 @@
 ﻿# ipldatavisualization
 
+## App is live and Can be accessed at : http://ec2-54-242-195-13.compute-1.amazonaws.com/ 
+
 ## steps to update repo
 ## 
 ## 1) create a local branch from main branch in local repository
